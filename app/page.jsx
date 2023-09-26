@@ -9,6 +9,7 @@ import code from "../public/code.png";
 import foodapp from "../public/foodapp.png";
 import hoobank from "../public/hoobank.png";
 import movieland from "../public/movieland.png";
+import tindog from "../public/tindog.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -126,14 +127,13 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
           </div>
-          <div className="flex flex-col gap-10 justify-center p-10 lg:flex-row lg:flex-wrap">
+          <div className="flex flex-col gap-10 justify-center p-10 lg:flex-row lg:flex-wrap mx-auto">
             <div className="basis-1/3 flex-1">
               <Image
                 src={hoobank}
                 alt="hoobank"
                 className="rounded-lg object-cover"
                 height={"100%"}
-                responsive={true}
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -142,7 +142,6 @@ export default function Home() {
                 alt="foodapp"
                 className="rounded-lg object-cover"
                 height={"100%"}
-                responsive={true}
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -151,7 +150,14 @@ export default function Home() {
                 alt="movieland"
                 className="rounded-lg object-cover"
                 height={"100%"}
-                responsive={true}
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                src={tindog}
+                alt="tindog"
+                className="rounded-lg object-cover"
+                height={"100%"}
               />
             </div>
           </div>
