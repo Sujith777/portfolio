@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from "react";
 import { InfiniteMovingCards } from "./ui/InfMovingCards";
 import { skills } from "@/data";
-import { TypewriterEffectSmooth } from "./ui/TypewriterEffect";
 
 export default function Skills() {
   return (
