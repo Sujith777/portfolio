@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Skills", link: "#skills" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -106,16 +106,8 @@ export const projects = [
 
 export const skills = [
   {
-    image: "/aws.png",
-    name: "Amazon Web Services",
-  },
-  {
     image: "/cpp.png",
     name: "C Plus Plus",
-  },
-  {
-    image: "/css.png",
-    name: "Cascading Style Sheets",
   },
   {
     image: "/express.png",
@@ -128,10 +120,6 @@ export const skills = [
   {
     image: "/github.png",
     name: "Github",
-  },
-  {
-    image: "/html.png",
-    name: "HTML",
   },
   {
     image: "/javascript.png",
@@ -155,7 +143,7 @@ export const skills = [
   },
   {
     image: "/react.png",
-    name: "React",
+    name: "React.js",
   },
   {
     image: "/redux.png",
