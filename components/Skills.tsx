@@ -6,7 +6,7 @@ import { skills } from "@/data";
 export default function Skills() {
   return (
     <div className="py-20" id="skills">
-      <h1 className="text-3xl mb-4 text-purple">Skills and Technologies</h1>
+      <h1 className="heading mb-4 text-purple">Skills and Technologies</h1>
       <div className="flex flex-col items-center">
         <InfiniteMovingCards items={skills} direction="right" speed="slow" />
       </div>
