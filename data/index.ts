@@ -72,6 +72,15 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "CarePulse - a healthcare platform",
+    des: "A full stack healthcare application built using Next.js, Typescript, TailwindCSS and Shadcn UI that leverages Appwrite as a backend as a service.",
+    img: "/carepulse.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwrite.svg"],
+    link: "https://billasp-carepulse.vercel.app",
+  },
+  ,
+  {
+    id: 2,
     title: "Imaginify - A SaaS application based on generative AI",
     des: "Explore the wonders of image operations like resizing, background removal and such based on Cloudinary generative AI.",
     img: "/ai-saas.png",
@@ -79,7 +88,7 @@ export const projects = [
     link: "https://billasp-imaginify.vercel.app",
   },
   {
-    id: 2,
+    id: 3,
     title: "Flowmazon - E-commerce Website",
     des: "A full stack e-commerce application using Next.js, Typescript, Prisma, Stripe and Tailwind CSS.",
     img: "/ecommerce.png",
@@ -87,20 +96,12 @@ export const projects = [
     link: "https://billasp-flowmazon.vercel.app",
   },
   {
-    id: 3,
+    id: 4,
     title: "Jobinator - A job posting board",
     des: "A full stack job posting board that supports progressive enhancement using Next.js, Typescript, Prisma, Shadcn UI and Clerk.",
     img: "/jobinator.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/prisma.svg", "/c.svg"],
     link: "https://billasp-jobinator.vercel.app",
-  },
-  {
-    id: 4,
-    title: "Snapgram - a social media platform",
-    des: "A full stack social media application built using React.js, React Query, Typescript and Prisma that leverages Appwrite as a backend as a service.",
-    img: "/snapgram.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/appwrite.svg"],
-    link: "https://billasp-snapgram.vercel.app",
   },
 ];
 
